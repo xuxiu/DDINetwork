@@ -1,0 +1,37 @@
+
+Name of Quantlet: DDINetwork_network_dynamic 
+
+Published in: DDINetwork
+
+Description: 'Estimate the level, slope, and curvature factor based on 
+DNS model with one-year rolling window (260 observations), and 
+then calculate the daynamic of network connectedness for each 
+factor with variance decomposition.'
+
+Keywords:
+- factor analysis
+- factor-model
+- dynamic
+- factor
+- term structure
+- plot
+- parameter
+- pca
+- autoregressive
+- default
+- estimation
+- regression
+- multivariate analysis
+
+See also: 
+- DDINetwork_CDS
+- DDINetwork_network_US_EU
+- DDINetwork_network_static
+- DDINetwork_CDS_forecast             
+
+Author: Xiu Xu
+
+Submitted: Tue, Dec 27 2016 by Xiu Xu
+
+Datafile: Bank.xlsx
+
