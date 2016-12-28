@@ -1,0 +1,34 @@
+
+Name of Quantlet: DDINetwork_network_static
+
+Published in: DDINetwork
+
+Description: 'Estimate the level, slope, and curvature factor based on 
+DNS model with the whole data sample, and then calculate the network 
+connectedness for each factor with variance decomposition.'
+
+Keywords:
+- factor analysis
+- factor-model
+- term structure
+- plot
+- parameter
+- pca
+- autoregressive
+- default
+- estimation
+- regression
+- multivariate analysis
+
+See also: 
+- DDINetwork_CDS
+- DDINetwork_network_US_EU
+- DDINetwork_network_dynamic
+- DDINetwork_CDS_forecast             
+
+Author: Xiu Xu
+
+Submitted: Tue, Dec 27 2016 by Xiu Xu
+
+Datafile: Bank.xlsx
+
