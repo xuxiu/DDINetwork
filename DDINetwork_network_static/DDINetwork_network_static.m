@@ -1,17 +1,18 @@
 %% DNS model estimation
-clear all;  clc;
+clear all;  
+clc;
 [data, d] = xlsread('Bank.xlsx', 'Bank_1', 'A4:K2091'); 
-yname    = ['  m06';'  y01'; '  y02';'  y03';'  y04';'  y05';'  y07';'  y10';'  y20';'  y30']; 
-maturity = [ 6    12    24    36    48    60    84   120   240   360];
-yn       = size(yname, 1);    % Number of maturities
-firmnum  = 10;
-N        = size(data, 1);
-theta    = zeros(26, firmnum);
-Level    = zeros(N, firmnum);
-Slope    = zeros(N, firmnum);
-Curva    = zeros(N, firmnum);
-Yieldhat = zeros(N*yn, 4*firmnum);
-iplot    = 0;
+yname     = ['  m06';'  y01'; '  y02';'  y03';'  y04';'  y05';'  y07';'  y10';'  y20';'  y30']; 
+maturity  = [ 6    12    24    36    48    60    84   120   240   360];
+yn        = size(yname, 1);    % Number of maturities
+firmnum   = 10;
+N         = size(data, 1);
+theta     = zeros(26, firmnum);
+Level     = zeros(N, firmnum);
+Slope     = zeros(N, firmnum);
+Curva     = zeros(N, firmnum);
+Yieldhat  = zeros(N*yn, 4*firmnum);
+iplot     = 0;
 for k = 1 : firmnum
     % read data
     [data, d] = xlsread('Bank.xlsx', ['Bank_' num2str(k)], 'A4:K2091');     
@@ -178,9 +179,3 @@ net_Level
 net_Slope
 net_Curva
 save('DNS_static_network')
-
-
-
-
-
-

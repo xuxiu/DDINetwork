@@ -1,5 +1,5 @@
 function llfn = llfn_Kalman(bigthet)
-% define variables and parameters
+
 global yy yn maturity K; 
 global mu fai AA BB DD sig omega lamda;
 global sigmat_t sigmat_lag ft_lag XNS;
@@ -48,7 +48,7 @@ for t = 1:bigt;
     if t>1  
         llfn = llfn - 0.5*log(det(ft_lag)) - 0.5*itat_lag'*(ft_lag\eye(yn))*itat_lag;
     end;    
-    Kalg      = sigmat_lag*FF'*(ft_lag\eye(yn));  % Kalman gain
+    Kalg      = sigmat_lag*FF'*(ft_lag\eye(yn));  
     Xt_t      = Xt_lag + Kalg*itat_lag;
     sigmat_t  = sigmat_lag - Kalg*FF*sigmat_lag;
     XNS(:, t) = Xt_t;
@@ -56,7 +56,7 @@ end;
 
 llfn = - llfn;
 
-if omega<0;
+if omega < 0;
     llfn = real(llfn) + 1e8;
 end  
 if abs(imag(llfn)) > 0

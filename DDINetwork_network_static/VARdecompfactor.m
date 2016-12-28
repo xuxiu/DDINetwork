@@ -46,7 +46,7 @@ for i = 1 : tau
 end
 vbar = inv(vbar);
 
-gamma = zeros(nfirm, 1 + K*plag);  % K = nfirm = K
+gamma = zeros(nfirm, 1 + K*plag);  % K = nfirm
 gamma = reshape(aols, K, (1 + K*plag));
 Sigma_U = hbar;
 if all(eig((Sigma_U + Sigma_U')/2)) >= 0
