@@ -1,0 +1,36 @@
+
+Name of Quantlet: DDINetwork_network_US_EU 
+
+Published in: DDINetwork
+
+Description: 'Group the dynamics of connectedness measures in US and 
+European banks for level, slope, curvature factor respectively.'
+
+Keywords:
+- factor analysis
+- factor-model
+- dynamic
+- factor
+- term structure
+- plot
+- parameter
+- pca
+- autoregressive
+- default
+- estimation
+- regression
+- multivariate analysis
+- grouping
+
+See also: 
+- DDINetwork_CDS
+- DDINetwork_network_dynamic 
+- DDINetwork_network_static
+- DDINetwork_CDS_forecast             
+
+Author: Xiu Xu
+
+Submitted: Tue, Dec 27 2016 by Xiu Xu
+
+Datafile: Bank.xlsx
+
