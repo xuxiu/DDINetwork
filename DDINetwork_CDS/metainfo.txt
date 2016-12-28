@@ -1,0 +1,26 @@
+
+Name of Quantlet: DDINetwork_CDS 
+
+Published in: DDINetwork
+
+Description: 'Plot the 3D CDS curves of the selected 10 banks.'
+
+Keywords:
+- data visualization
+- 3D
+- term structure
+- plot
+- default
+
+See also: 
+- DDINetwork_CDS_forecast             
+- DDINetwork_network_dynamic 
+- DDINetwork_network_static
+- DDINetwork_network_US_EU 
+
+Author: Xiu Xu
+
+Submitted: Tue, Dec 27 2016 by Xiu Xu
+
+Datafile: Bank.xlsx
+
