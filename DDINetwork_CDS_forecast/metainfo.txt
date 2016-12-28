@@ -1,0 +1,37 @@
+
+Name of Quantlet: DDINetwork_CDS_forecast             
+
+Published in: DDINetwork
+
+Description: 'Forecast CDS spreads with network information in 2011-2013 
+under DNS model, and calculate the difference of RMSE between DNS model 
+with or without other bank information. Further, perform a DM test 
+to compare the out-of-sample performance.'
+
+Keywords:
+- factor analysis
+- factor-model
+- forecast
+- factor
+- term structure
+- plot
+- parameter
+- pca
+- autoregressive
+- default
+- estimation
+- regression
+- multivariate analysis
+
+See also: 
+- DDINetwork_CDS
+- DDINetwork_network_dynamic 
+- DDINetwork_network_static
+- DDINetwork_network_US_EU 
+
+Author: Xiu Xu
+
+Submitted: Tue, Dec 27 2016 by Xiu Xu
+
+Datafile: Bank.xlsx
+
